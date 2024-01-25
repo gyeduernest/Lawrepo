@@ -14,7 +14,7 @@ export default function Positions() {
  To answer any questions
       </h4>
       <img src={stuff} alt=""  className='flex'/>
-      <div className='lg:flex gap-8  px-10 justify-center items-center'>
+      <div className='md:flex md:items-center md:justify-center lg:flex gap-8  px-10 justify-center items-center'>
         <div className='mb-10'>  
         <img src={Civil} alt="" className='w-72 h-96' />
         <p>

@@ -21,8 +21,8 @@ function App() {
           <Testimonials/>
           <Positions/>
           <Partners/>   
-          <ContactForm/>       
-          <Footer/>
+          <ContactForm/>  
+          <NavBar/>     
         
         </div>
     </>

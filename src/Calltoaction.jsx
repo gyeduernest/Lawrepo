@@ -20,7 +20,7 @@ export default function Calltoaction() {
          by injected humour, oir  which don't look even slightly believable.
         </p>
 
-        <div className='lg:flex lg:gap-10 lg:justify-center lg:items-center px-7'>
+        <div className='lg:flex lg:gap-10 md:flex lg:justify-center lg:items-center px-7'>
 
           <div  className='flex w-80 mb-5 h-32 rounded-sm gap-10 items-center hover:bg-slate-800 hover:text-white bg-slate-100 text-slate-600 p-5 justify-between'>
             <div className='w-20 p-5 h-20 border rounded-full border-yellow-400  items-center flex justify-center'>

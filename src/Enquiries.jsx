@@ -6,7 +6,7 @@ const ContactForm = () => {
   const [questions, setQuestions] = useState('');
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+   alert("Your request has been submitted you will hear from us. However if you dont hear from us in 2 business days you can send an email to any of our Lawyers featured on this site")
     // Add your logic for form submission here
     console.log('Form submitted:', { fullName, email, questions });
   };
@@ -24,7 +24,7 @@ const ContactForm = () => {
             Full Name
           </label>
           <input
-            className="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+            className="text-slate-800 appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
             id="fullName"
             type="text"
             placeholder="Full Name"
@@ -39,7 +39,7 @@ const ContactForm = () => {
             Email
           </label>
           <input
-            className="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+            className="text-slate-800 appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
             id="email"
             type="email"
             placeholder="Email"
@@ -54,7 +54,7 @@ const ContactForm = () => {
             Questions
           </label>
           <textarea
-            className="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+            className="text-slate-800 appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
             id="questions"
             placeholder="Your Questions"
             value={questions}
@@ -68,6 +68,7 @@ const ContactForm = () => {
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline w-full rounded-md"
             type="submit"
+            onClick={handleSubmit}
           >
             Submit
           </button>

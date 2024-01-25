@@ -10,9 +10,9 @@ import thirtyfive from "../src/assets/thirtyfive.svg"
 export default function Hero() {
   return (
 <>
-    <div className='lg:flex' style={{ backgroundImage: `url('../src/assets/Herobgphoto.png')` }}>
+    <div className='lg:flex bg-slate-700' >
           <div className=' lg:p-10 lg:px-20 py-10'>
-            <img src={stuff} alt="" className='' />
+            <img src={stuff} alt="" className='bg-red-900' />
             <h4 className='lg:text-5xl text-white font-semibold text-3xl text-center'>
             Deeper Understanding
               Better Solutions
@@ -21,11 +21,13 @@ export default function Hero() {
             It is a long established fact that a reader will be distracted by 
 the readable content of a 
             </p>
-            <button className='px-10 py-4 ml-32 bg-[#D1B06B] text-sm text-slate-800 font-semibold'>
+           <div className='md:w-full md:flex md:justify-center'>
+           <button className='px-10 py-4 ml-32 bg-[#D1B06B] text-sm text-slate-800 font-semibold'>
                 Get in touch
             </button>
+           </div>
           </div>
-          <div className=''>
+          <div className='md:w-full flex md:justify-center'>
               <img src={Heroimage} alt="" className='lg:mr-96' />
           </div>
 
@@ -53,7 +55,7 @@ for Complex Litigation
             </p>
           </div>
         </div>
-        <div className='lg:flex lg:gap-8 px-24 '>
+        <div className='lg:flex lg:gap-8 px-24 md:wfull md:flex justify-center gap-5'>
         <button className='lg:flex flex gap-4 mb-5 px-8 py-2 lg:justify-center items-center bg-slate-600'>
                 <div className=''>
                   <img src={Bookpen} alt="" className='' />
